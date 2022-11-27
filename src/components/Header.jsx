@@ -1,4 +1,4 @@
-import {React} from 'react';
+import { React } from 'react';
 import { Box } from '@mui/material';
 import { FaHome } from 'react-icons/fa';
 import headerlogo from '../assets/header-logo.png';
