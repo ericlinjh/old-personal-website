@@ -11,9 +11,9 @@ export default function WorkExperience () {
                 <p className="p1">Work Experience</p>
                 <h6>Here’s the story of my career so far</h6>
             </Box>
-            <Box className="horizontal-panels">
+            <Box className="row-panels">
                 <Box className="work-panel">
-                    <Box className="job-details">
+                    <Box className="basic-details">
                         <p className="p1">Nova</p>
                         <p className="p2">Product Manager</p>
                         <p className="p2">Sep 2022 - Dec 2022</p>
@@ -38,7 +38,7 @@ export default function WorkExperience () {
                     </Box>
                 </Box>
                 <Box className="work-panel">
-                    <Box className="job-details">
+                    <Box className="basic-details">
                         <p className="p1">de Souza Institute</p>
                         <p className="p2">DevOps Engineering Assistant</p>
                         <p className="p2">Jan 2022 - Apr 2022</p>
