@@ -20,7 +20,7 @@ export default function WorkExperience () {
                     </Box>
                     <img src={novapreview} alt="Nova Image Preview"/>
                     <p className="p2 work-description">Worked with the Experience Pod, a group of 8 engineers focused on front-end improvements to Nova’s Hub. 
-                    Designed, documented, and new features and improvements using Figma and JIRA. 
+                    Designed, documented, and presented new features and improvements using Figma and JIRA. 
                     Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate workers. 
                     Conducted user research on 200+ users through A/B testing and use of SmartLook. 
                     Wrote, optimized, and analyzed MySQL queries to better understand usage of different features.</p>

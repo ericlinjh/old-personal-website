@@ -88,6 +88,22 @@ h6 {
   color: $neutral-900;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: $neutral-900;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -121,6 +137,16 @@ h6 {
 
 .header-home {
   justify-content: flex-start;
+}
+
+#home-button:hover {
+  cursor: pointer;
+  background: $neutral-300;
+  border-radius: 4px 8px;
+}
+
+#home-button {
+  padding: 4px;
 }
 
 .header-logo {
@@ -349,17 +375,5 @@ h6 {
     align-items: center;
     padding: 8px 12px;
     gap: 10px;
-
-    a {
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    a:active {
-      text-decoration: underline;
-    }
   }
 }
