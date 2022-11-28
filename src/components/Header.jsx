@@ -7,7 +7,7 @@ export default function Header () {
     return(    
         <Box className="header">
             <Box className="header-home header-box"> 
-                <FaHome size={32} />
+                <FaHome size={36} />
             </Box>
             <Box className="header-logo header-box">
                 <img src={headerlogo} alt="Logo" />

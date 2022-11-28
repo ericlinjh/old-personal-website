@@ -1,15 +1,19 @@
 import './App.scss';
 import Header from './components/Header.jsx'
 import AboutMe from './components/AboutMe.jsx'
+import WorkExperience from './components/WorkExperience.jsx'
+import Projects from './components/Projects.jsx'
+import ContactMe from './components/ContactMe.jsx'
 import { Box } from '@mui/material';
 
 function App() {
   return (
     <main>
-      <Box id="container">
-        <Header />
-        <AboutMe />
-      </Box>
+      <Header />
+      <AboutMe />
+      <WorkExperience />
+      <Projects />
+      <ContactMe />
     </main>
   );
 }
