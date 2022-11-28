@@ -5,7 +5,7 @@ import { FaGraduationCap, FaHammer, FaNewspaper } from 'react-icons/fa';
 
 export default function AboutMe () {
     return(
-        <Box className="content">
+        <Box className="content" id="about-me" dataLabel="about me">
             <Box className="title">
                 <p className="p1">About Me</p>
                 <h6>Let me tell you about myself</h6>

@@ -14,6 +14,13 @@ $primary-500: #9DA6F2;
 body {
   background-color: $neutral-50;
   font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -104,20 +111,27 @@ a:visited {
   color: $neutral-900;
 }
 
+.container {
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px;
-  height: 104px;
+  height: 68px;
 
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-
+  scroll-snap-align: center;
   background: $neutral-100;
 }
 
@@ -174,11 +188,11 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   padding: 32px 64px;
-  height: 100%;
-  flex: 1;
-  overflow: auto;
+  height: calc(100vh - 164px);
+  scroll-snap-align: start;
 }
 
 .title {
@@ -376,4 +390,50 @@ a:visited {
     padding: 8px 12px;
     gap: 10px;
   }
+}
+
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 20px;
+
+  position: fixed;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vertical-nav-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.vertical-nav-item:hover a ~ .p2 {
+  opacity: 100%;
+}
+
+.vertical-nav-item:hover .vertical-nav-link {
+  transform: scale(1.25)
+}
+
+.vertical-nav-item .p2 {
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.vertical-nav-link {
+  background: $neutral-900;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  transition: transform 0.25s;
+}
+
+a.p2 {
+  text-decoration: none;
 }

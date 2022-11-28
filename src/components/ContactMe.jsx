@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function ContactMe () {
     return(
-        <Box className="content">
+        <Box className="content" id="contact-me">
             <Box className="title">
                 <p className="p1">Contact Me</p>
                 <h6>I'd love to meet and have a chat with you!</h6>

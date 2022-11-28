@@ -6,7 +6,7 @@ import desouzapreview from '../assets/desouza_preview.png'
 
 export default function WorkExperience () {
     return (
-        <Box className="content">
+        <Box className="content" id="work-experience">
               <Box className="title">
                 <p className="p1">Work Experience</p>
                 <h6>Here’s the story of my career so far</h6>

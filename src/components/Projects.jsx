@@ -6,7 +6,7 @@ import personalwebsitepreview from '../assets/personalwebsite_preview.png'
 
 export default function Projects () {
     return (
-        <Box className="content">
+        <Box className="content" id="projects">
               <Box className="title">
                 <p className="p1">Projects</p>
                 <h6>And these are some of the things I've built</h6>
