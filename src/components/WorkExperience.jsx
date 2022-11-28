@@ -24,7 +24,7 @@ export default function WorkExperience () {
                     Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate workers. 
                     Conducted user research on 200+ users through A/B testing and use of SmartLook. 
                     Wrote, optimized, and analyzed MySQL queries to better understand usage of different features.</p>
-                    <Box className="work-additional-info">
+                    <Box className="additional-info">
                         <Box className="skills-list">
                             <p className="p3">Figma</p>
                             <p className="p3">JIRA</p>
@@ -32,7 +32,7 @@ export default function WorkExperience () {
                             <p className="p3">Google DV360</p>
                         </Box>
                         <Box id="learn-more">
-                            <p className="p3">Learn More</p>
+                            <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
                         </Box>
                     </Box>
@@ -47,14 +47,14 @@ export default function WorkExperience () {
                     <p className="p2 work-description">Programmed and updated changes to the front‑end design of the e‑Learning Centre, serving a new modern, responsive, and accessible platform to 18,000+ health care professionals. 
                     Developed, documented, and deployed a React port of the Virtual Library, improving site security and performance. 
                     Designed and coded an automated GANTT chart used to schedule and organize 30+ courses throughout the year, removing user frustrations and streamlining the scheduling process</p>
-                    <Box className="work-additional-info">
+                    <Box className="additional-info">
                         <Box className="skills-list">
                             <p className="p3">React</p>
                             <p className="p3">Moodle</p>
                             <p className="p3">Mustache</p>
                         </Box>
                         <Box id="learn-more">
-                            <p className="p3">Learn More</p>
+                            <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
                         </Box>
                     </Box>

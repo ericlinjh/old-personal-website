@@ -244,7 +244,7 @@ h6 {
   }
 }
 
-.horizontal-panels {
+.row-panels {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -252,7 +252,7 @@ h6 {
   gap: 16px;
 }
 
-.job-details {
+.basic-details {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,7 +278,7 @@ h6 {
   text-align: center;
 }
 
-.work-additional-info {
+.additional-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,6 +295,12 @@ h6 {
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
+  
+  p {
+    background-color: $neutral-100;
+    padding: 4px 8px;
+    border-radius: 32px;
+  }
 }
 
 #learn-more {
@@ -304,4 +310,23 @@ h6 {
   align-items: center;
   padding: 0px;
   gap: 4px;
+}
+
+.project-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.project-blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 448px;
 }
