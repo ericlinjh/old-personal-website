@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import eric from '../assets/eric.png';
 import { FaGraduationCap, FaHammer, FaNewspaper } from 'react-icons/fa';
 
