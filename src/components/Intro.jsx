@@ -60,7 +60,7 @@ const welcomeVariant = {
 
 const Intro = ({ setLoading }) => {
     return(    
-        <motion.Box className="header" style={{flexDirection: "column", justifyContent: "center", height: "100vh"}}>
+        <motion.Box className="header" style={{flexDirection: "column", justifyContent: "center", height: "100vh", padding: 0}}>
             <motion.div
                 variants={fullIntro}
                 initial='hidden'
