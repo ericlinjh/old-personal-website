@@ -27,7 +27,8 @@ export default function Header () {
         <Box className="header">
             <ScrollToTop />
             <Box className="header-logo header-box">
-                <img src={headerlogo} alt="Logo" />
+                <h5 style={{fontWeight: 900, zIndex: "2"}}>Eric Lin</h5>
+                <h5 style={{fontWeight: 900, position: "absolute", color: "#9A9AA4"}}><em>Eric Lin</em></h5>
             </Box>
             <Box className="header-nav header-box">
                 {/* <a>Blog</a>

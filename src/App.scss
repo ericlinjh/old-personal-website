@@ -48,7 +48,7 @@ h3 {
 }
 
 h4 {
-  font-size: 81;
+  font-size: 81px;
   line-height: 95px;
   font-weight: 600;
   margin: 0;
@@ -614,5 +614,112 @@ a.p2 {
 
   #contact-text {
     width: 448px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-text {
+    gap: 16px;
+
+    h3 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  } 
+
+  .header-logo h5 {
+    font-size: 24px;
+    line-height: 28px;  
+  }
+
+  .header-nav a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #logo-front {
+    font-size: 54px;
+    line-height: 63px;
+  }
+
+  #logo-back {
+    font-size: 54px;
+    line-height: 63px;
+  }
+
+  #roles {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  #about-me, #work-experience, #projects {
+    gap: 8px;
+  }
+
+  .bio {
+    gap: 4px;
+    flex-direction: column;
+
+    p:first-child {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      width: 288px;
+    }
+
+    #portrait {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .details {
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interests {
+    display: none;
+  }
+
+  .row-panels{
+    gap: 4px;
+    flex-direction: column;
+  }
+
+  .work-panel {
+    width: 288px;
+
+    img {
+      width: 160px;
+    }
+  }
+
+  .additional-info {
+    display: none;
+  }
+
+  .work-description {
+    width: 288px;
+  } 
+
+  .project-panel {
+    gap: 8px;
+    flex-direction: column;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .project-blurb {
+    width: 288px;
+  }
+
+  #contact-text {
+    width: 288px;
   }
 }
