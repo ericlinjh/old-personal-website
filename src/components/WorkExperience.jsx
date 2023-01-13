@@ -31,10 +31,10 @@ export default function WorkExperience () {
                             <p className="p3">MySQL</p>
                             <p className="p3">Google DV360</p>
                         </Box>
-                        <Box id="learn-more">
+                        {/* <Box id="learn-more">
                             <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Box>
                 <Box className="work-panel">
@@ -53,10 +53,10 @@ export default function WorkExperience () {
                             <p className="p3">Moodle</p>
                             <p className="p3">Mustache</p>
                         </Box>
-                        <Box id="learn-more">
+                        {/* <Box id="learn-more">
                             <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Box>
             </Box>

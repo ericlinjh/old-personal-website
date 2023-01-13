@@ -28,10 +28,10 @@ export default function Projects () {
                             <p className="p3">Three.js</p>
                             <p className="p3">Figma</p>
                         </Box>
-                        <Box id="learn-more">
+                        {/* <Box id="learn-more">
                             <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Box>
             </Box>
@@ -51,10 +51,10 @@ export default function Projects () {
                             <p className="p3">React</p>
                             <p className="p3">MaterialUI</p>
                         </Box>
-                        <Box id="learn-more">
+                        {/* <Box id="learn-more">
                             <p className="p3">See More</p>
                             <FaArrowRight size={8}/>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Box>
             </Box>
