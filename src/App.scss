@@ -188,6 +188,7 @@ a:visited {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
+    color: $neutral-900
   }
 }
 
@@ -207,6 +208,7 @@ a:visited {
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  text-align: center;
 }
 
 .bio {
@@ -449,34 +451,42 @@ a.p2 {
 @media (max-width: 1024px) {
   h1 {
     font-size: 182px;
+    line-height: 213px;
   }
 
   h2 {
     font-size: 122px;
+    line-height: 143px;
   }
 
   h3 {
     font-size: 81px;
+    line-height: 95px;
   }
 
   h4 {
     font-size: 54px;
+    line-height: 63px;
   }
 
   h5 {
     font-size: 36px;
+    line-height: 42px;
   }
 
   h6 {
     font-size: 24px;
+    line-height: 28px;
   }
 
   .p1 {
     font-size: 16px;
+    line-height: 19px;
   }
 
   .p2 {
     font-size: 11px;
+    line-height: 13px;
   }
 
   .bio {
@@ -511,5 +521,98 @@ a.p2 {
 
   .vertical-nav {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .intro-text {
+    gap: 16px;
+
+    h3 {
+      font-size: 54px;
+      line-height: 63px;
+    }
+  } 
+
+  #logo-front {
+    font-size: 122px;
+    line-height: 143px;
+  }
+
+  #logo-back {
+    font-size: 122px;
+    line-height: 143px;
+  }
+
+  #roles {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #about-me, #work-experience, #projects {
+    gap: 12px;
+  }
+
+  .bio {
+    gap: 8px;
+    flex-direction: column;
+
+    p:first-child {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      width: 448px;
+    }
+
+    img {
+      width: 220px;
+    }
+  }
+
+  .details {
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interests {
+    display: none;
+  }
+
+  .row-panels{
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .work-panel {
+    width: 448px;
+
+    img {
+      width: 220px;
+    }
+  }
+
+  .work-description {
+    width: 448px;
+  } 
+
+  .project-panel {
+    gap: 8px;
+    flex-direction: column;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .project-blurb {
+    width: 448px;
+  }
+
+  #contact-text {
+    width: 448px;
   }
 }

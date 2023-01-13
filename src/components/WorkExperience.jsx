@@ -19,13 +19,16 @@ export default function WorkExperience () {
                         <p className="p2">Sep 2022 - Dec 2022</p>
                     </Box>
                     <img src={novapreview} alt="Nova Image Preview"/>
-                    <p className="p2 work-description">Worked with the Experience Pod, a group of 8 engineers focused on front-end improvements to Nova’s Hub. 
-                    Designed, documented, and presented new features and improvements using Figma and JIRA. 
-                    Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate workers. 
-                    Conducted user research on 200+ users through A/B testing and use of SmartLook. 
-                    Wrote, optimized, and analyzed MySQL queries to better understand usage of different features.</p>
-                    <Box className="additional-info">
-                        <Box className="skills-list">
+                    <p className="p2 work-description">Worked closely with a group of 13 engineers focused on front‑end features throughout all stages of scrum software
+                                                        development.
+                                                        Designed and documented UI and UX Flow Prototypes for 30+ features and improvements using Figma.
+                                                        Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate
+                                                        workers.
+                                                        Conducted user research on 200 clients and 3,000 platform users through A/B testing, analyzing customer data trends,
+                                                        and use of SmartLook.
+                                                        Wrote, optimized, and analyzed 25+ MySQL queries to better understand usage of different features and options.</p>
+                            <Box className="additional-info">
+                                <Box className="skills-list">
                             <p className="p3">Figma</p>
                             <p className="p3">JIRA</p>
                             <p className="p3">MySQL</p>

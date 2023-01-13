@@ -107,8 +107,8 @@ const Intro = ({ setLoading }) => {
                             duration: 1
                         }
                     }}>
-                    <h1 style={{fontWeight: 900, zIndex: "2"}}>Eric Lin</h1>
-                    <h1 style={{fontWeight: 900, position: "absolute", color: "#9A9AA4"}}><em>Eric Lin</em></h1>
+                    <h1 style={{fontWeight: 900, zIndex: "2"}} id="logo-front">Eric Lin</h1>
+                    <h1 style={{fontWeight: 900, position: "absolute", color: "#9A9AA4"}} id="logo-back"><em>Eric Lin</em></h1>
                 </motion.div>
                 <Box style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
                     <motion.h6 initial={{opacity: 0}}
@@ -119,7 +119,7 @@ const Intro = ({ setLoading }) => {
                             delay: 3.5,
                             duration: 1
                         }
-                    }} onAnimationComplete={() => setLoading(false)}>Student | Product Manager | Front-End Developer</motion.h6>
+                    }} onAnimationComplete={() => setLoading(false)} id="roles">Student | Product Manager | Front-End Developer</motion.h6>
                 </Box>
             </Box>
         </motion.div>

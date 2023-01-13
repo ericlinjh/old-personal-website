@@ -12,7 +12,7 @@ export default function AboutMe () {
             </Box>
             <Box className="bio">
                 <p className='p2'>Hello! My name is Eric Lin and I am a Systems Design Engineering Student at the University of Waterloo. 
-                I’m currently on my second co-op term, heading into 2A in Winter 2023. 
+                I’m currently on my 2A school term in Winter 2023. 
                 I’ve worked positions as a front-end engineer and as a product manager at two smaller companies. 
                 In the future, I hope to continue working as a Product Manager.</p>
                 <img src={eric} alt="Portrait of Me" id="portrait"/>
