@@ -29,13 +29,13 @@ function App() {
 
       ): (
         <> 
-          <motion.Box className="container" >
+          <Box className="container" >
             <Header />
             <AboutMe />
             <WorkExperience />
             <Projects />
             <ContactMe />
-          </motion.Box>
+          </Box>
           <VerticalScrollNav />
         </>
       )}
