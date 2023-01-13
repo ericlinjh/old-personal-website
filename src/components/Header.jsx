@@ -30,8 +30,8 @@ export default function Header () {
                 <img src={headerlogo} alt="Logo" />
             </Box>
             <Box className="header-nav header-box">
-                <a>Blog</a>
-                <a>Designs</a>
+                {/* <a>Blog</a>
+                <a>Designs</a> */}
                 <a href={resume} target="_blank">Resume</a>
             </Box>
         </Box>

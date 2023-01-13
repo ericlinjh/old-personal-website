@@ -1,6 +1,6 @@
 import { React } from 'react';
 import { Box } from '@mui/material';
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function ContactMe () {
     return(

@@ -63,7 +63,7 @@ export default function AboutMe () {
                         <FaNewspaper size={32} />
                         <p className="p1" id="interest-header">Following</p>
                         <hr />
-                        <p className="p2">Joji</p>
+                        <p className="p2">TUYU</p>
                         <p className="p2">Mechanical Keyboards</p>
                         <p className="p2">Toronto Raptors</p>
                     </Box>

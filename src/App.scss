@@ -445,3 +445,71 @@ a:visited {
 a.p2 {
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 182px;
+  }
+
+  h2 {
+    font-size: 122px;
+  }
+
+  h3 {
+    font-size: 81px;
+  }
+
+  h4 {
+    font-size: 54px;
+  }
+
+  h5 {
+    font-size: 36px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  .p1 {
+    font-size: 16px;
+  }
+
+  .p2 {
+    font-size: 11px;
+  }
+
+  .bio {
+    width: 584px;
+  }
+
+  .interest-panels div {
+    width: 132px;
+  }
+
+  .work-panel {
+    width: 284px; 
+
+    img {
+      width: 284px;
+    }
+  }
+
+  .work-description {
+    width: 284px;
+  }
+
+  .project-panel {
+    img {
+      width: 284px;
+    }
+  }
+
+  .project-blurb {
+    width: 284px;
+  }
+
+  .vertical-nav {
+    display: none;
+  }
+}
