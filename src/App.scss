@@ -557,6 +557,7 @@ a.p2 {
   .bio {
     gap: 8px;
     flex-direction: column;
+    width: 448px;
 
     p:first-child {
       text-align: center;
@@ -567,8 +568,9 @@ a.p2 {
       width: 448px;
     }
 
-    img {
+    #portrait {
       width: 220px;
+      height: 220px;
     }
   }
 
@@ -659,6 +661,7 @@ a.p2 {
   .bio {
     gap: 4px;
     flex-direction: column;
+    width: 228px;
 
     p:first-child {
       text-align: center;
@@ -694,7 +697,7 @@ a.p2 {
     width: 288px;
 
     img {
-      width: 160px;
+      display: none;
     }
   }
 
