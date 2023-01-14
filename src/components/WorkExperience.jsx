@@ -19,11 +19,8 @@ export default function WorkExperience () {
                         <p className="p2">Sep 2022 - Dec 2022</p>
                     </Box>
                     <img src={novapreview} alt="Nova Image Preview"/>
-                    <p className="p2 work-description">Worked closely with a group of 13 engineers focused on front‑end features throughout all stages of scrum software
-                                                        development.
+                    <p className="p2 work-description">Worked with group of 13 engineers focused on front‑end features through all stages of scrum software development.
                                                         Designed and documented UI and UX Flow Prototypes for 30+ features and improvements using Figma.
-                                                        Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate
-                                                        workers.
                                                         Conducted user research on 200 clients and 3,000 platform users through A/B testing, analyzing customer data trends,
                                                         and use of SmartLook.
                                                         Wrote, optimized, and analyzed 25+ MySQL queries to better understand usage of different features and options.</p>
@@ -49,7 +46,7 @@ export default function WorkExperience () {
                     <img src={desouzapreview} alt="de Souza Image Preview"/>
                     <p className="p2 work-description">Programmed and updated changes to the front‑end design of the e‑Learning Centre, serving a new modern, responsive, and accessible platform to 18,000+ health care professionals. 
                     Developed, documented, and deployed a React port of the Virtual Library, improving site security and performance. 
-                    Designed and coded an automated GANTT chart used to schedule and organize 30+ courses throughout the year, removing user frustrations and streamlining the scheduling process</p>
+                    Designed and coded an automated GANTT chart used to schedule and organize 30+ courses throughout the year, removing user frustrations and streamlining scheduling process</p>
                     <Box className="additional-info">
                         <Box className="skills-list">
                             <p className="p3">React</p>
