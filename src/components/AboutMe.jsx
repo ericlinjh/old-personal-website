@@ -40,7 +40,7 @@ export default function AboutMe () {
                     </Box>
                 </Box>
             </Box>
-            <Box className="interests">
+            {/* <Box className="interests">
                 <h6>And this is what I like to do</h6>
                 <Box className="interest-panels">
                     <Box>
@@ -68,7 +68,7 @@ export default function AboutMe () {
                         <p className="p2">Toronto Raptors</p>
                     </Box>
                 </Box>
-            </Box>
+            </Box> */}
         </Box>
     )
 }
