@@ -19,7 +19,7 @@ export default function WorkExperience () {
                         <p className="p2">Sep 2022 - Dec 2022</p>
                     </Box>
                     <img src={novapreview} alt="Nova Image Preview"/>
-                    <p className="p2 work-description">Worked closely with a group of 13 engineers focused on front‑end features throughout all stages of scrum software
+                    <p className="p3 work-description">Worked closely with a group of 13 engineers focused on front‑end features throughout all stages of scrum software
                                                         development.
                                                         Designed and documented UI and UX Flow Prototypes for 30+ features and improvements using Figma.
                                                         Organized and oversaw biweekly sprints, assigning and planning the correct amount of the tickets to the appropriate
@@ -47,7 +47,7 @@ export default function WorkExperience () {
                         <p className="p2">Jan 2022 - Apr 2022</p>
                     </Box>
                     <img src={desouzapreview} alt="de Souza Image Preview"/>
-                    <p className="p2 work-description">Programmed and updated changes to the front‑end design of the e‑Learning Centre, serving a new modern, responsive, and accessible platform to 18,000+ health care professionals. 
+                    <p className="p3 work-description">Programmed and updated changes to the front‑end design of the e‑Learning Centre, serving a new modern, responsive, and accessible platform to 18,000+ health care professionals. 
                     Developed, documented, and deployed a React port of the Virtual Library, improving site security and performance. 
                     Designed and coded an automated GANTT chart used to schedule and organize 30+ courses throughout the year, removing user frustrations and streamlining the scheduling process</p>
                     <Box className="additional-info">
